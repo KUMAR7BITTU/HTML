@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Input Tags</title>
+</head>
+<body>
+    <h2>This is HTML Form tutorial</h2>
+    <form action="backend.php">
+        <!-- <div>
+            Name : <input type="text" name="myName">
+        </div>
+        <br> -->
+        <label for="name">Name</label>
+        <div>
+            <input type="text" name="myName"id="name">
+        </div>
+        <div>
+            Role : <input type="text" name="myRole">
+        </div>
+        <br>
+        <div>
+            Email : <input type="email" name="myEmail">
+        </div>
+        <br>
+        <div>
+            Date : <input type="date" value="myDate">
+        </div>
+        <br>
+        <div>
+            Bonus : <input type="number" name="myBonus">
+        </div>
+        <br>
+        <div>
+            Are you Eligible ? : <input type="checkbox" name="myEligibility" checked>  
+        </div>
+        <br>
+        <div>
+            Gender : Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender"> Other <input type="radio" name="myGender">
+        </div>
+        <br>
+        <div>
+            Write about yourself :-
+            <br>
+            <textarea name="myText" cols="30" rows="10"></textarea>
+        </div>
+         <br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+
+        <br>
+        <div>
+            <label for="car">Car</label>
+            <select name="myCar" id="car">
+                <option value="ind">Indica</option>
+                <option value="swf" selected>Swift</option>
+            </select>
+        </div>
+    </form>
+</body>
+</html>
+
+<!-- form tag is used to create a form in html -->
+<!-- action attribute of form tag is used to specify where to send the form data when a form is submitted . In above example the form will send the data to backend php .-->
+<!-- input tag is used to create interactive controls in a web form that users can use to enter data . In above example we have created two text input fields -->
+<!-- type attribute of input tag is used to specify the type of input control to display. -->
+<!-- input is a inline break element so it does not start on new line -->
+<!-- div is a block level element (create division) which starts from new line -->
+<!-- To make something already checked bydefault , we use checked attribute for checkbox  -->
+<!-- lable tag is used to provide a label for an input element . It helps improve accessibility and user experience by associating labels with their corresponding inputs. In label tag we give id of input field same as for attribute of label tag . -->
