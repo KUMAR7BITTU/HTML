@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h3>Id and Classes tutorial</h3>
+<div id="mainBox" class="redBg blackBorder">
+    this is a mainBox
+</div>
+<span class="redBg">this is span</span>
+</body>
+</html>
+<!-- id is an identifier which is unique and every element has unique id . -->
+<!-- class is not unique and multiple elements can have same class -->
+<!-- id is used to identify a single element -->   
+<!-- class is used to group similar elements together . So that we can apply css on all the elements of that class at once --> 
+<!-- a element can have only one id but it can have many classes . -->
+
+
+<!-- Emmet -->
+<!-- . is used for class and # is used for id . -->
+<span class="redBg">This is redBg span element</span>  <!-- span.redBg -->
+<span id="mainBox">This is mainBox span element</span> <!-- span#mainBox -->
+
+<div class="redBg blackBorder anotherClass"></div>
+
+<!-- Emmet takes div tag as default tag if no tag is specified before dot or hash symbol . -->
+<div class="blackBackground"></div>
+
+<!-- We can create a div with three different classes using following syntax :-  .myclass1.myclass2.myclass3 -->
+<div class="myclass1 myclass2 myclass3"></div>
+
+<!-- we can write span.redBackground*4 to create four divs with class "redBackground". -->
+<span class="redBackground">First</span>
+<span class="redBackground">Second</span>
+<span class="redBackground">Third</span>
+<span class="redBackground">Fourth</span>
